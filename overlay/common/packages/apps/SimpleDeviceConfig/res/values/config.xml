@@ -36,6 +36,9 @@
         <!-- Globally enable the new photo picker -->
         <item>storage_native_boot/take_over_get_content=true</item>
 
+        <!-- Disable always screen on -->
+        <item>attention_manager_service/keep_screen_on_enabled=false</item>
+
         <!--
             Device Personalization Services (AiAi)
         -->
@@ -74,6 +77,7 @@
         <item>device_personalization_services/Captions__enable_clearcut_logging=true</item>
         <item>device_personalization_services/Captions__enable_language_detection=true</item>
         <item>device_personalization_services/Captions__enable_punctuations=true</item>
+        
         <!-- Smartspace -->
         <item>device_personalization_services/Cell__enable_cell=true</item>
         <item>device_personalization_services/Cell__enable_smartspace_events=true</item>
@@ -226,13 +230,14 @@
         <item>device_personalization_services/WallpaperEffects__return_texturedmesh_with_error_status=true</item>
         <item>device_personalization_services/WallpaperEffects__use_gpu=true</item>
 
+        <item>device_personalization_services/Attention__enabled=false</item>
+
         <!-- System Ui -->
         <item>systemui/clipboard_overlay_show_actions=true</item>
         <item>systemui/quick_access_wallet_enabled=true</item>
         <item>systemui/enable_screenshot_corner_flow=true</item>
         <item>systemui/enable_screenshot_notification_smart_actions=true</item>
         <item>systemui/enable_screenshot_scrolling=true</item>
-        <item>systemui/volume_separate_notification=true</item>
 
         <!-- Notifications -->
         <item>notification_assistant/generate_actions=true</item>
