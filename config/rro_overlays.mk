@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     TraceurOverlay \
     PixelConfigOverlay2019 \
     PixelConfigOverlay2019Midyear \
+    PixelConfigOverlay2020 \
     PixelConfigOverlay2021 \
     PixelSetupWizardOverlay \
     PixelFwResOverlay \
