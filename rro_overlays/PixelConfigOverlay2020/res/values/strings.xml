@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="config_defaultAdaptiveAudio">com.google.android.as/com.google.android.apps.miphone.aiai.adaptiveaudio.settings.ui.AdaptiveAudioSettingsActivity</string>
+</resources>  
