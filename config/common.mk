@@ -246,7 +246,8 @@ $(call inherit-product, vendor/aosp/config/bootanimation.mk)
 $(call inherit-product, vendor/aosp/config/fonts.mk)
 
 # GMS
-$(call inherit-product, vendor/gms/products/gms.mk)
+$(call inherit-product-if-exists, vendor/google/gms/config.mk)
+$(call inherit-product-if-exists, vendor/google/pixel/config.mk)
 
 # OTA
 $(call inherit-product, vendor/aosp/config/ota.mk)
