@@ -22,7 +22,6 @@ PRODUCT_PACKAGES += \
     PixelConfigOverlay2019Midyear \
     PixelConfigOverlay2020 \
     PixelConfigOverlay2021 \
-    PixelSetupWizardOverlay \
     PixelFwResOverlay \
     GoogleConfigOverlay \
     SystemUIGoogleOverlay \
