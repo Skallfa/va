@@ -21,6 +21,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 endif
 
+#App-Lock
+vendor/aosp/prebuilt/common/etc/permissions/privapp-permissions-settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-settings.xml
+
 # BtHelper
 PRODUCT_PACKAGES += \
     BtHelper
