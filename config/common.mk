@@ -89,7 +89,18 @@ PRODUCT_PACKAGES += \
     BrightnessSliderRoundedClipOverlay \
     BrightnessSliderThumbSliderOverlay \
     BrightnessSliderLineOverlay \
-    BrightnessSliderLightyOverlay 
+    BrightnessSliderLightyOverlay
+
+# QS tile styles
+PRODUCT_PACKAGES += \
+    QSOutline \
+    QSTwoToneAccent \
+    QSShaded \
+    QSCyberPunk \
+    QSNeumorph \
+    QSReflected \
+    QSSurround \
+    QSThin
 
 # Power whitelist
 PRODUCT_COPY_FILES += \
