@@ -108,7 +108,7 @@
         <item>storage_native_boot/take_over_get_content=true</item>
 
          <!-- Disable always screen on -->
-        <item>attention_manager_service/keep_screen_on_enabled=true</item>
+        <item>attention_manager_service/keep_screen_on_enabled=false</item>
 
         <!-- Allow users to disable location indicators in Developer Options -->
         <item>privacy/location_indicator_settings_enabled=true</item>
