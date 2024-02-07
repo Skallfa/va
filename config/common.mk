@@ -176,7 +176,7 @@ PRODUCT_PACKAGES += \
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUIGoogle \
-    NexusLauncherRelease
+    Launcher3QuickStep
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.systemuicompilerfilter=speed
@@ -256,6 +256,7 @@ endif
 
 # Repainter integration
 PRODUCT_PACKAGES += \
+    ThemePicker \
     RepainterServicePriv
 
 # NexusLauncher resources
