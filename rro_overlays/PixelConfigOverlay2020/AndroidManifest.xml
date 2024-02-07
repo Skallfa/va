@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.google.android.overlay.pixelconfig2020">
-    <application android:label="PixelConfigOverlay2020" android:hasCode="false"/>
-    <overlay android:priority="7" android:targetPackage="android" android:isStatic="true"/>
-</manifest>
