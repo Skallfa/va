@@ -64,7 +64,7 @@
     <bool name="config_enableAutoPowerModes">true</bool>
 
     <!-- Enable lockscreen rotation by default -->
-    <bool name="config_enableLockScreenRotation">true</bool>
+    <bool name="config_enableLockScreenRotation">false</bool>
 
     <!--  Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
@@ -100,9 +100,6 @@
         <!-- Keep up to 7 days of permission usage history -->
         <item>privacy/discrete_history_cutoff_millis=604800000</item>
         <item>privacy/privacy_dashboard_7_day_toggle=true</item>
-
-        <!-- Enable protected by android banner -->
-        <item>privacy/safety_protection_enabled=true</item>
 
         <!-- Globally enable the new photo picker -->
         <item>storage_native_boot/take_over_get_content=true</item>
