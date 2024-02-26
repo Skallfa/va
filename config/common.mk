@@ -25,6 +25,11 @@ endif
 PRODUCT_PACKAGES += \
     BtHelper
 
+# Icon Pack
+PRODUCT_PACKAGES += \
+IconPackGradiconAndroidOverlay \
+IconPackGradiconSystemUIOverlay 
+
 # Enable whole-program R8 Java optimizations for SystemUI and system_server,
 # but also allow explicit overriding for testing and development.
 SYSTEM_OPTIMIZE_JAVA ?= true
